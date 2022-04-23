@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "target": "es2021", /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "ES2021"
+    ],
+    "baseUrl": "./", /* Specify the base directory to resolve non-relative module names. */
+    "jsx": "react",
+    "allowJs": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noUncheckedIndexedAccess": false, // TODO: enable it
+    "importHelpers": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": true,
+    "strictBindCallApply": true,
+    "noEmit": true, /* Disable emitting files from a compilation. */
+  },
+  "include": [
+    "src"
+  ]
+}
