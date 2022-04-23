@@ -4,14 +4,14 @@
   "description": "",
   "main": "index.ts",
   "scripts": {
-    "start": "npx nodemon src/index.ts"
+    "start": "node-dev src/index.ts"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@types/yup": "^0.29.13",
     "express": "^4.17.3",
-    "nodemon": "^2.0.15",
+    "node-dev": "^7.4.3",
     "tslib": "^2.3.1",
     "yup": "^0.32.11"
   },

@@ -4,8 +4,6 @@ export enum Category {
   Random_Thought = "Random Thought",
 }
 
-export type TempNote = { archive: boolean; content: string; category: Category; name: string };
-
 export type Note = {
   dates: string[];
   id: number;
@@ -15,6 +13,8 @@ export type Note = {
   content: string;
   archive: boolean;
 };
+
+export type TempNote = Omit<Note, "dates" | "id" | "created">;
 
 export type CategoryStat = { [key: string]: { archive: number; active: number; id: number } };
 
